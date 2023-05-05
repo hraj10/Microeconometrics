@@ -8,7 +8,7 @@ Rather than modelling the choice of getting insurance $S_i$ as an exogenous vari
     EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\varepsilon_{i},
 \end{equation}
 we assume that the dummy $S_i$ is endogenous, which gives rise to some form of a correction term must be added to estimate the individual health expenditures $EXP_i$. This can be done by using the Cosslett method resulting in
- \begin{equation}\label{eq2}
+ \begin{equation}
     EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\theta g(z_{i}^{\prime} \gamma)+\varepsilon_{i}^{*}
 \end{equation}
 where $\varepsilon_{i}^{*}$ is now the corrected error term.
