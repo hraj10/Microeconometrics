@@ -4,7 +4,7 @@ For a project, we aimed to estimate the impact of health insurance on health exp
 
 The underlying code estimates the model as follows:
 Rather than modelling the choice of getting insurance $S_i$ as an exogenous variable alongside the other explanatory variables $x_i$ in the form of
-$$    EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\varepsilon_{i},$$
+$$EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\varepsilon_{i},$$
 we assume that the dummy $S_i$ is endogenous, which gives rise to some form of a correction term must be added to estimate the individual health expenditures $EXP_i$. This can be done by using the Cosslett method resulting in
  \begin{equation}
     EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\theta g(z_{i}^{\prime} \gamma)+\varepsilon_{i}^{*}
