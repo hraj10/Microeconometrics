@@ -6,7 +6,9 @@ The underlying code estimates the model as follows:
 Rather than modelling the choice of getting insurance $S_i$ as an exogenous variable alongside the other explanatory variables $x_i$ in the form of
 $$EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\varepsilon_{i},$$
 we assume that the dummy $S_i$ is endogenous, which gives rise to some form of a correction term must be added to estimate the individual health expenditures $EXP_i$. This can be done by using the Cosslett method resulting in
-$$EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\theta g(z_{i}^{\prime} \gamma)+\varepsilon_{i}^{*},$$
+
+
+
 where $\varepsilon_{i}^{*}$ is now the corrected error term.
 The correction term $g(z_{i}^{\prime} \gamma)$ takes the form of some general density-like function dependent on $z_{i}^{\prime} \gamma$. This function is defined separately for all observations where $S_{i} = 0$ and all observations where $S_{i} = 1$. For each situation, the domain of $g(z_{i}^{\prime} \gamma)$ is split into $K$ intervals, which are treated as bins. Dummies are created for each interval, and the dummy variable for insurance value $i\in \{0,1\}$ and bin $k\in\{1,...,K\}$ is given value 1 for an observation if it has insurance value $i$ and its value $z_{i}^{\prime} \gamma$ falls into bin $k$.
  
