@@ -2,7 +2,7 @@
 
 For a project, we aimed to estimate the impact of health insurance on health expenditures amongst men. Since the dummy variable "being insured" may be subject to endogeneity (e.g. higher income typically influences both health expeditures and the decision to get insurance) and thus may be biased, we focused on the Cosslett (1993) method to correct for potential endogeneity. Our paper used data from the 2013 cohort of the The Medical Expenditure Panel Survey (MEPS), which can be derived from https://meps.ahrq.gov/mepsweb/. After cleaning the data, 8242 observations were used for the analysis.
 
-**Modelling procedure**
+## Modelling procedure
 The underlying code estimates the model as follows:
 Rather than modelling the choice of getting insurance $S_i$ as an exogenous variable alongside the other explanatory variables $x_i$ in the form of
 $$EXP_{i}=\beta_{0}+x_{i}^{\prime} \beta+S_i \delta+\varepsilon_{i},$$
